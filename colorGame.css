@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*overflow-y: hidden;*/
+}
+
+.header {
+	background: #3a75ac;
+	color: #fff;
+	text-align: center;
+	padding-top: 1rem;
+	user-select: none;
+}
+
+.header h3 {
+	font-size: 1.6rem;
+	font-weight: 300;
+	padding: 1rem 0;
+}
+
+.header h1 {
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+
+.modes {
+	display: flex;
+	padding: 0 30%;
+	color: #3a75ac;
+}
+
+.modes .again {
+	display: flex;
+	width: 100%;
+	font-weight: 600;
+	/*padding: 0.4rem;*/
+	user-select: none;
+	/*transition: 0.5s;*/
+}
+.modes .again span{
+	padding: 0.4rem;
+	transition: 0.5s;
+}
+
+.modes .again span:hover{
+	background: #3a75ac;
+	color: #fff;
+}
+
+.modes .try {
+	font-weight: 600;
+	padding: 0.4rem;
+	text-align: center;
+	width: 100%;
+	user-select: none;
+}
+
+.modes .levels {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	font-weight: 600;
+	cursor: default;
+	user-select: none;
+}
+
+.modes .levels span{
+	padding: 0.4rem;
+	transition: 0.5s;
+}
+
+.current {
+	background: #3a75ac;
+	color: #fff;
+}
+
+.color-boxes {
+	background: #2f2f2f;
+	padding: 2.0rem 20%; 
+	justify-content: center;
+	min-height: 417px;
+}
+
+.color-boxes .row{
+	display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.color-boxes .row div{
+	background: yellow;
+	width: 190px;
+	height: 180px;
+	border-radius: 20px;
+	margin: 0 1rem 1.6rem;
+	transition: 0.5s;
+	user-select: none;
+}
